@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Pizza</title>
+    </head>
+    <br>
+    <body>
+    <h1>Pizza Order</h1>
+    <form>
+        <label for="name">Your Name:</label>
+        <input type="text" name="name" id="name" minlength="3" maxlength="10" required>
+        <br>
+        <br>
+        <label for="email">Your Email:</label>
+        <input type="email" name="email" id="email" placeholder="@yahoo.com" required>
+        <br>
+        <br>
+        <label for="quantity">Quantity:</label>
+        <input type="number" name="quantity" min="1" max="7" id="quantity" value="1">
+        <br>
+        <br>
+        <label for="deliveryDate">Delivery Date:</label>
+        <input type="date" name="deliveryDate" id="deliveryDate">
+        <br>
+        <br>
+        <label for="topping">Topping:</label>
+        <input type="radio" name="topping" id="supreme" checked>Supreme
+        <input type="radio" name="topping" id="vegetarian">Vegetarian
+        <input type="radio" name="topping" id="hawaian">Hawaian
+        <br>
+        <br>
+        <label for="sauce">Sauce:</label>
+        <select name="sauce">
+            <option value="tomato">Tomato</option>
+            <option value="hotTomato">Hot Tomato</option>
+        </select>
+        <br>
+        <br>
+        <label for="extras">Extras:</label>
+        <input type="checkbox" name="extras" id="cheese">Cheese
+        <input type="checkbox" name="extras" id="onions">Onions
+        <input type="checkbox" name="extras" id="Olives">Olives
+        <br>
+        <br>
+        <label for="deliveryInstructions">Delivery Instructions:</label><br>
+        <textarea rows="10" cols="30" name="deliveryInstructions" id="deliveryInstructions" required></textarea>
+        <br>
+        <br>
+        <input type="submit" id="Send order">
+        <input type="reset" id="Reset">
+
+        
+    </form>
+
+        
+</html>
