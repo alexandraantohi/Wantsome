@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Travel reservation form</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        
+        <h1>Travel reservation form</h1>
+        <h3>* denotes mandatory</h3>
+        <form action="/" method="GET">
+
+            <label for="full_name">Full Name*:</label>
+            <br>
+            <input type="text" name="nume" id="full_name" placeholder="FirstName LastName" required>
+            <br>
+           
+            <label for="email">E-mail address*:</label>
+            <br>
+            <input type="email" name="email" id="email" placeholder="EMAIL_ADDRESS" required>
+            <br>
+            
+            <label for="tour_package">Select Tour Package*:</label>
+            <br>
+            <select name="tour_package" id="tour_package" required>
+                <option value="goa">Goa</option>
+                <option value="goa_special">Goa Special</option>
+                <option value="weekend_getaway">Weekend Getaway to Goa</option>
+            </select>
+            <br>
+            
+            <label for="arrival">Arrival date*:</label>
+            <br>
+            <input type="date" name="arrival_date" id="arrival" required>
+            <br>
+           
+            <label for="arrival1">Arrival date*:</label>
+            <br>
+            <input type="text" name="arrival" id="arrival1" placeholder="m/d/y" required>
+            <br>
+            
+            <label for="persons">Number of persons*:</label>
+            <br>
+            <input type="number" name="number_persons" id="persons" placeholder="UNKNOWN _TYPE" required>
+            <br>
+            
+            <label for="question">What whould you want to avail?*</label>
+            <br>
+            <label for="question_b">Boarding</label>
+            <input type="checkbox" name="answer1" value="Boarding" id="question_b">
+            <br>
+
+            <label for="question_f">Fooding</label>
+            <input type="checkbox" name="answer2" value="Fooding" id="question_f">
+            <br>
+
+            <label for="question_s">Sight seeing</label>
+            <input type="checkbox" name="answer3" value="Sight Seeing" id="question_s">
+            <br>
+            
+            <label for="discount">Discount Coupon code:</label>
+            <br>
+            <input type="text" name="code" id="discount" placeholder="UNKNOWN_TYPE">
+            <br>
+            
+            <label for="terms" >Terms and conditions*</label>
+            <br>
+            <input type="radio" name="terms" id="terms_agree" value="I agree">I agree
+            <input type="radio" name="terms" id="terms_disagree" value="I disagree" >I disagree
+            <br>
+            
+            <input type="submit" value="Complete reservation" >
+        </form>
+
+        
+
+
+
+
+
+    </body>
+
+
+
+
+
+
+</html>

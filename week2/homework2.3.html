@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Search for</title>
+        <meta charset="utf-8">
+
+    </head>
+    
+    <body>
+        <form>
+
+            <label for="gsearch">Search for:</label>
+            <br>
+            <input type="search" name="gsearch" id="gsearch" placeholder="chocolate cheesecake recipes" size="30">
+
+            <input type="submit" name="search" value="search">
+            <br>
+
+        
+            <label for="match">Match:</label>
+
+            <input type="radio" name="match" id="any_words" value="any words">
+            <label for="any_words">Any words</label>
+
+            <input type="radio" name="match" id="all_words" value="all words">
+            <label for="all_words">All words</label>
+
+            <input type="radio" name="match" id="exact_phrase" value="exact phrase">
+            <label for="exact_phrase">Exact phrase</label>
+            
+        
+            <input type="checkbox" name="match" id="matching" checked>
+            <label for="matching">Sound-alike matching</label>
+            <br>
+    
+            <label for="dated">Dated:</label>
+            <input type="radio" name="dated" id="dated">
+            <select id="dated" name="dated">
+                <option value="within the last year">Within the last year</option>
+                <option value="within the last month">Within the last month</option>
+                <option value="within the last week">Within the last week</option>
+            </select>
+        
+
+            <input type="radio" name="dated" id="dated">
+            <label for="from_month">From:</label>
+            <select id="from_month" name="month">
+                <option value="january">January</option>
+                <option value="february">February</option>
+                <option value="march">March</option>
+                <option value="april">April</option>
+                <option value="may">May</option>
+                <option value="june">June</option>
+                <option value="july">July</option>
+                <option value="august">August</option>
+                <option value="september" selected>September</option>
+                <option value="october">October</option>
+                <option value="november">November</option>
+                <option value="december">December</option>
+            </select>
+            
+            <select id="from_day" name="day">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8" selected>8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+            </select>
+
+        ,   <input type="number" name="year" id="from_year" value="2009">
+        
+            <br>
+        
+            <label for="to_month">To:</label>
+            <select id="to_month" name="month">
+                <option value="january">January</option>
+                <option value="february">February</option>
+                <option value="march">March</option>
+                <option value="april">April</option>
+                <option value="may">May</option>
+                <option value="june">June</option>
+                <option value="july">July</option>
+                <option value="august">August</option>
+                <option value="september">September</option>
+                <option value="october" selected>October</option>
+                <option value="november">November</option>
+                <option value="december">December</option>
+            </select>
+
+            <select id="to_day" name="day">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18" selected>18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+            </select>
+
+            , <input type="number" name="year" id="to_year" value="2011">
+
+                
+            <br>
+
+            <label for="within">Within:</label>
+            <select id="within" name="whithin">
+                <option value="description">Description</option>
+                <option value="ceva">Ceva</option>
+            </select>
+            <br>
+
+            <label for="show">Show:</label>
+            <select id="show" name="number_of_results">
+                <option value="10">10</option>
+                <option value="15">15</option>
+                <option value="20">20</option>
+            </select>
+            results
+
+            <select id="with" name="summaries">
+                <option value="with">with</option>
+                <option value="without">without</option>
+            </select>
+            summaries
+            <br>
+
+            <label for="sort">Sort by:</label>
+            <select id="sort" name="sort_by">
+                <option value="relevance">relevance</option>
+                <option value="recently uploaded">recently uploaded</option>
+            </select>
+            
+
+
+        </form>
+
+
+
+    </body>
+
+
+
+
+</html>
