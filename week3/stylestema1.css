@@ -1,0 +1,67 @@
+<style>
+
+form {
+    display: block;
+    text-align: center;
+    border: solid black;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+
+}
+
+.content {
+    position: relative;
+    margin: auto;
+    width: 50%;
+    border: lightgrey solid 20px;
+}
+
+.main_form {
+    margin: 30px 40px 30px 30px;
+    
+}
+
+.input_form {
+    width: 100%;
+}
+
+.log_in {
+    width: 100%;
+    background-color: #8ab540;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.form_group {
+    margin: 10px 10px;
+}
+
+.chess_board td {
+    width: 50px;
+    height: 50px;
+}
+
+.chess_board tr:nth-child(even) td:nth-child(odd) {
+    background-color: black;
+}
+
+.chess_board tr:nth-child(odd) td:nth-child(even) {
+    background-color: black;
+}
+
+.chess_board {
+    margin: auto;
+}
+
+.chess_board table {
+    border: black solid 5px; 
+    margin: auto;
+}
+
+
+
+</style>
