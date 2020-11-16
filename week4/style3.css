@@ -1,0 +1,38 @@
+.container li span  {
+    color: purple;
+}
+
+.container {
+    border: 5px solid purple;
+    width: 200px;
+    position: absolute;
+    
+}
+
+.content {
+    border: 5px solid blue;
+    position: relative;
+    height: 410px;
+    
+}
+
+.sections_yellow {
+    border: 5px solid yellow;
+    position: absolute;
+    left: 210px;
+
+}
+
+.yellow_1 {
+    border: 5px solid yellow;
+    padding: 20px;
+    
+}
+
+
+.footer {
+    border: 5px solid green;
+    position: fixed;
+    
+
+}

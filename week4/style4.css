@@ -1,0 +1,44 @@
+.container li span  {
+    color: purple;
+}
+
+.container {
+    border: 5px solid purple;
+    width: 25%;
+    float: left;
+    
+}
+
+.content {
+    border: 5px solid blue;
+    overflow: auto;
+    
+}
+
+.sections_yellow {
+    border: 5px solid yellow;
+    float: left;
+    width: 70%;
+
+}
+
+.yellow_1 {
+    border: 5px solid yellow;
+    padding: 20px;
+    
+}
+
+.footer {
+    border: 5px solid green;
+    
+    
+
+}
+
+img {
+    border: 10px dotted red;
+    padding: 15px;
+    background-clip: border-box;  
+    width: 500px;
+    height: 300px;
+  }
