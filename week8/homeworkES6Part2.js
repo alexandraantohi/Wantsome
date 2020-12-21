@@ -2,6 +2,7 @@
 //Toate denumirile de variabile si functii trebuie sa fie in EN
 //Folositi nume sugestive si aveti grija la indentare
 
+
 /*
 1. Implementati o functie care accepta ca parametru o valoare numerica si returneaza suma numerelor de la 1 pana la valoarea specificata
 */
