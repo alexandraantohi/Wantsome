@@ -1,3 +1,6 @@
+h1, h2, h3, h4, p {
+    font-weight: inherit !important;
+}
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (min-width : 360px) and (max-width : 767px) {
@@ -6,9 +9,7 @@
        
     }
     
-    h1, h2, h3, h4, p {
-        font-weight: inherit !important;
-    }
+
 
     body {
         display: flex;
