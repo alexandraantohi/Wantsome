@@ -1,0 +1,46 @@
+body {
+    border: solid lightgrey;
+    width: 50%;
+    margin: 0 auto;
+}
+
+h3 {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    
+}
+
+.goodInput {
+    display : none;
+}
+
+.badInput {
+    display: inline;
+    background-color: lightsalmon;
+    border: solid red;
+}
+
+div {
+    margin-bottom: 20px;
+    height: 25px;
+}
+
+.formVisual {
+    margin-bottom: 10px;
+    height: 25px;
+}
+
+#nextButton {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 25px;
+    color: white;
+    background-color: #000000c2;
+}

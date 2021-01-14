@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+        content="width=device-width,
+        initial-scale=1.0">
+        <title>Site 42 </title>
+        <link rel="stylesheet" href="formValidation.css">
+    </head>
+
+    <body>
+        <h3>Get your own Site 42 Sites account in deconds</h3>
+
+        <form>
+
+            <label for="userName">Username:</label>
+            <div id="userNameWrong" class="goodInput"></div>
+            <input type="text" name="name" id="userName" class="formVisual"> 
+            
+            <label for="email">Email Address:</label>
+            <div id="emailWrong" class="goodInput"></div>
+            <input type="email" name="email" id="emailAddress" class="formVisual">
+            
+            <label for="firstName">First Name:</label>
+            <div id="firstNameWrong" class="goodInput"></div>
+            <input type="text" name="firstName" id="firstName" class="formVisual">
+    
+            <label for="lastName">Last Name:</label>
+            <div id="lastNameWrong" class="goodInput"></div>
+            <input type="text" name="lastName" id="lastName" class="formVisual">
+    
+            <label for="nickname">Nickname:</label>
+            <input type="text" name="nickname" id="nickname" class="formVisual">
+    
+            <label for="phone">Phone:</label>
+            <div id="phoneNumberWrong" class="goodInput"></div>
+            <input type="text" name="phoneNr" id="phone" class="formVisual">
+
+            <div>
+                <input type="radio" name="siteInfo" value="Gimme a site!" id="site">
+                <label for="site">Gimme a site!</label>
+                <br/>
+                <input type="radio" name="siteInfo" value="Just a username,please." id="justUsername">
+                <label for="justUsername">Just a username,please.</label>
+            </div>
+            
+
+    
+            <input type="submit" value="NEXT" id="nextButton">
+
+        </form>
+        
+
+
+
+
+        <script src="formValidation.js"></script>
+
+    </body>
+
+
+
+
+
+</html>
